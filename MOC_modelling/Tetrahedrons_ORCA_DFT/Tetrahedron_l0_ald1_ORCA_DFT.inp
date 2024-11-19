@@ -1,0 +1,5 @@
+! r2SCAN-3c ENERGY TightSCF def2/J 
+%PAL NPROCS 60 END 
+%maxcore 5316 
+
+*xyzfile 8 1 /rds/user/pcpt3/hpc-work/CageConstruction/GreenawayCollab/Tetrahedrons_ORCA_DFT/Tetrahedron_l0_ald1_ORCA_DFT/Tetrahedron_l0_ald1_XTB.xyz 
