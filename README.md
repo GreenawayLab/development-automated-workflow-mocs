@@ -3,7 +3,8 @@
 
 This repository contains the associated code for data curation and characterization used in the study *Development of an Automated Workflow for Screening the Assembly and Host-Guest Behavior of Metal-Organic Cages (MOCs) Towards Accelerated Discovery*.
 
-The experimental data can be found on [Zenodo](https://zenodo.org).
+The experimental data can be found on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14183036.svg)](https://doi.org/10.5281/zenodo.14183036)
+
 
 ---
 
