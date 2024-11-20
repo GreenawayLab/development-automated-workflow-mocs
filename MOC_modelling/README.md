@@ -8,6 +8,7 @@ This repository contains the scripts used for the automated atomistic modelling 
 - [stk](https://github.com/lukasturcani/stk) v2024.3.28.0 (*stk.small.NCore* doesn't work for earlier versions of *stk*)
 - [stko](https://github.com/lukasturcani/stko) v2023.11.13.0 
 - [gulp](https://gulp.curtin.edu.au/) v5.1
+- [OPTIM](https://www-wales.ch.cam.ac.uk/OPTIM/) 
 - SLURM scheduler (for job arrays)
 - Python 3.11.9 (the used *stk* version requires python 3.11)
 - [pywindow](https://github.com/marcinmiklitz/pywindow)
