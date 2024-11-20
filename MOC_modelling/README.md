@@ -19,6 +19,8 @@ This repository contains the scripts used for the automated atomistic modelling 
 - Scripts/: contains all bash and python scripts
 - Tetrahedrons_stko/: contains all the MD and GFN2-xTB ("vtight") optimized cage structures (*Tetrahedron_l[i]_ald[j]_MD.mol* and *Tetrahedron_l[i]_ald[j]_XTB.mol*) and their vibrational spectra (*Tetrahedron_l[i]_ald[j]_XTB_vibspectrum*) calculated at the GFN2-xTB ("vtight") level.
 - Tetrahedrons_ORCA_DFT/: contains all the input files (*Tetrahedron_l[i]_ald[j]_ORCA_DFT.inp* and *Tetrahedron_l[i]_ald[j].xyz*) and output files (*Tetrahedron_l[i]_ald[j]_ORCA_DFT.out*) for the r2SCAN-3c single-point energy calculations using _ORCA_.
+- Icosahedrons_MM3/: contains all the Icosahedron geometries after MM3 optimization in Scigress (*Icosahedron_l[i]_ald[j]_MM3.xyz* and *Icosahedron_l[i]_ald[j]_MM3.pdb*)
+- Icosahedrons_OPTIM/: contains the Icosahedron geometries after FF and GFN2 optimization in OPTIM (*Icosahedron_l[i]_ald[j]_<FF/GFN2>_converged.xyz*) and the output files (*Icosahedron_l[i]_ald[j]_OPTIM.out*)
 
 Here, "*i*" refers to the type of linker (l0 = A or l1 = B) and "*j*" refers to the type of aldehyde (ald1 - ald4).
 
@@ -64,7 +66,7 @@ Jobs were run through XTBOPTIM as no convergence could be reached through ORCA:
 In this script, the XTBOPTIM program is called:
 
 ```
-XTBOPTIM > ${dir_path}/OPTIM.out
+XTBOPTIM > ${dir_path}/Icosahedron_l[i]_ald[j]_OPTIM.out
 ```
 
 This program opens a file called 'odata' which contains the keywords:
