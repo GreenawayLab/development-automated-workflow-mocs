@@ -84,7 +84,7 @@ XTBAPI <input>.xyz <method> 24
 XTBARG accuracy 0.1 
 ```
 
-Here, <method> is either gfnff or gfn2.
+Here, /<method/> is either gfnff or gfn2.
 
 ## Pywindow 
 Scripts/pywindow.py shows the automated analysis for reading in the ORCA_DFT XYZ file, conversion to a pywindow molecule and subsequent diameter and volume calcualtions. This is then written to a JSON file, indexed via variable name. 
