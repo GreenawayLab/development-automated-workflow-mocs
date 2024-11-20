@@ -56,5 +56,34 @@ Here, "*i*" refers to the type of linker (l0 = A or l1 = B) and "*j*" refers to 
 ### Icosahedrons
 Five different icosahedrons were constructed from linker l0 and l1 using MM3 modelling in Scigress. The crystal structure of a previously published Fe-based icosahedron was used as a starting point (see CCDC [929025](https://www.ccdc.cam.ac.uk/structures/Search?Ccdcid=929025&DatabaseToSearch=Published)). Four icosahedrons were constructed with linker A and four different aldehydes, and one icosahedron was constructed with linker B and aldehyde ald1. Each structure was optimized at the GFN-FF level of theory. Optimization at the GFN2-xTB level did not lead to convergence for the linker A structures, but did for the linker B structure. The construction and optmization process of the icosahedrons was not automated due to the complexity of these geometries (e.g. the presence of non-C3-symmetric meridional octahedral complexes at the vertices instead of C3-symmetric facial octahedral complexes).
 
+Jobs were run through XTBOPTIM:
+
+>>sbatch sbatch.optim
+
+In this script, the XTBOPTIM program is called:
+
+```
+XTBOPTIM > ${dir_path}/OPTIM.out
+```
+
+This program opens a file called 'odata' which contains the keywords:
+
+```
+BFGSMIN 1.0D-6 
+CONVERGE 0.1 1.0D-6 
+UPDATES 500 100 5 5 
+MAXERISE 1.0D-5 0.02D0 
+MAXBFGS 0.2 0.1 
+BFGSSTEPS 10000 
+
+RADIUS 2000.0 
+DUMPDATA 
+
+XTBAPI <input>.xyz <method> 24 
+XTBARG accuracy 0.1 
+```
+
+Here, <method> is either gfnff or gfn2.
+
 ## Pywindow 
 Scripts/pywindow.py shows the automated analysis for reading in the ORCA_DFT XYZ file, conversion to a pywindow molecule and subsequent diameter and volume calcualtions. This is then written to a JSON file, indexed via variable name. 
