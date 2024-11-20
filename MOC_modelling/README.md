@@ -5,12 +5,12 @@ This repository contains the scripts used for the automated atomistic modelling 
 - [Scigress](https://www.fqs.pl/en/chemistry/products/scigress) v2.6
 - [ORCA](https://www.faccts.de/orca/) v5.0.4
 - [xtb](https://github.com/grimme-lab/xtb) v6.6.1
-- [stk](https://github.com/lukasturcani/stk) v2024.3.28.0 (*stk.small.NCore* doesn't work for earlier versions of *stk*)
+- [stk](https://github.com/lukasturcani/stk) v2024.3.28.0
 - [stko](https://github.com/lukasturcani/stko) v2023.11.13.0 
 - [gulp](https://gulp.curtin.edu.au/) v5.1
 - [OPTIM](https://www-wales.ch.cam.ac.uk/OPTIM/) 
 - SLURM scheduler (for job arrays)
-- Python 3.11.9 (the used *stk* version requires python 3.11)
+- Python 3.11.9
 - [pywindow](https://github.com/marcinmiklitz/pywindow)
 
   For installing these tools, refer to their respective documentation or package managers suitable for your system.
