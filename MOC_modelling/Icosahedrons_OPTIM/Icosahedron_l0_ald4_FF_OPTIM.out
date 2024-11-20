@@ -8,14 +8,14 @@ getparams> OPTIM is running on host name
 cpu-r-18
  getparams> Number of atoms (or variables)  determined as   1056
  getparams> Number of optimisation degrees of freedom   3168
- keywords> xtb system: Icosahedron_l0_2fp-meta-Me-2_MM3.xyz
+ keywords> xtb system: Icosahedron_l0_ald4_MM3.xyz
  xtbapi> Selected GFN-FF level
  xtbapi> Note, GFN-FF is a force field and can form new bonds
  xtbapi> Set molecular charge to 24
  xtbapi> Set xtb accuracy factor to     0.100000 (default: 1.0)
  fetchz> LBFGS minimization, maximum steps=   10000
  
- fetchz> Coordinates read from file Icosahedron_l0_2fp-meta-Me-2_MM3.xyz
+ fetchz> Coordinates read from file Icosahedron_l0_ald4_MM3.xyz
  fetchz> xtb input, 3168 coordinates for 1056 atoms are:
         C        20.011000       27.161000      139.621000
         N        20.701000       28.286000      139.172000
