@@ -5,7 +5,7 @@ A repository containing code used to replicate reactions performed on the Opentr
 ## Guide to Using Opentrons Code
 --------------------------------
 Solvent benchmarking scripts: `Solvent_benchmark_acetonitrile_automated_screen.py`, `Solvent_benchmark_acetonitrile_guest_assay.py` 
-Scripts for the experimental protocols on the OT-2: `automated_synthesis_opentron_script.py`, `automated_host_guest_assay_opentron_script.py`,  `nmr_transfer_opentron_script.py`
+Scripts for the experimental protocols on the OT-2: `automated_synthesis_opentron_script.py`, `automated_host_guest_assay_opentron_script.py`
 
 `substance_locations`, the locations of plate (1-9) and the well plate numbers are specified for each substance, in addition to the amount in each well and the substance name.
 The amount value is specified so the Opentrons knows to move onto the next well with the same substance.
