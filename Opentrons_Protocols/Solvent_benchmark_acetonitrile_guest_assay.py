@@ -8,7 +8,7 @@ from opentrons.types import Point
 # metadata
 metadata = {
     "protocolName": "Solvent Benchmarking Script",
-    "author": "Annabel Basford <a.basford20@imperial.ac.uk>",
+    "author": "User Name <user.name@email.ac.uk>",
     "description": "Solvent Benchmarking",
     "apiLevel": "2.9",
 }
