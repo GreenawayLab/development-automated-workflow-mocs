@@ -43,7 +43,15 @@ The experimental data can be found on [![DOI](https://zenodo.org/badge/DOI/10.52
   ```bash
   python moc_nmr_analyser.py /nmr/AB-03-002/01
   ```
+  
+**Script**: `moc_nmr_analyser_refined.py`
 
+- **Description**: Provides code and resulting data frames for NMR data analysis from the refined metal-ligand automated screen.
+- **Data Path**: The NMR data can be found at `/nmr/AB-03-011/01` on Zenodo.
+- **Usage**: Run the script from the parent directory, specifying the data path:
+  ```bash
+  python moc_nmr_analyser_refined.py /nmr/AB-03-011/01
+  ```
 ---
 
 ### 3. Opentrons Scripts
