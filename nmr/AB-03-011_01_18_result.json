@@ -1,0 +1,10 @@
+{
+    "aldehyde_peak_9.985": {
+        "percentage": 55.295,
+        "aldehyde_comment": "aldehyde is above 20% and categorised as significant aldehyde"
+    },
+    "aldehyde_peak_9.963": {
+        "percentage": 0.268,
+        "aldehyde_comment": "aldehyde is below 5% and categorised as minimal aldehyde"
+    }
+}
